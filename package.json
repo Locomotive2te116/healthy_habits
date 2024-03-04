@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-Monday_Monsters01/",
+    "build": "vite build --base=/healthy_habits/",
     "preview": "vite preview"
   },
   "devDependencies": {
