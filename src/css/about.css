@@ -1,0 +1,148 @@
+.about-section {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: var(--main-bg);
+}
+
+@media only screen and (min-width: 768px) {
+  .about-section {
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-section {
+    padding-top: 150px;
+    padding-bottom: 75px;
+  }
+}
+
+.about-title {
+  color: var(--text-white);
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-title {
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 51px;
+    letter-spacing: 0.02em;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-title {
+    margin-bottom: 50px;
+  }
+}
+
+.about-title-us {
+  color: var(--brown);
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-pic-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-pic-list {
+    gap: 50px;
+  }
+}
+
+.about-img {
+  margin-bottom: 41px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-img {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-img {
+    margin-bottom: 0;
+  }
+}
+
+.about-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .about-list {
+    gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-list {
+    gap: 40px;
+    padding-bottom: 13px;
+  }
+}
+
+.about-text {
+  width: 100%;
+  color: var(--text-white);
+  font-family: DM Sans;
+  font-size: 14px;
+  line-height: 1.28;
+}
+
+@media only screen and (min-width: 375px) {
+  .about-text {
+    width: 335px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .about-text {
+    width: 280px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .text-one {
+    width: 268px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .text-one {
+    width: 330px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .text-two {
+    width: 264px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .text-two {
+    width: 276px;
+  }
+}

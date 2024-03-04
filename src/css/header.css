@@ -1,0 +1,234 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid var(--text-white-trans);
+  background-color: var(--main-bg);
+  flex-grow: 1;
+  height: 50px;
+  padding: 0 19px;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: block;
+  width: 123px;
+  height: 16px;
+}
+
+.header-logo-icon {
+  fill: var(--text-white);
+  transition: var(--trans-time) var(--trans-func);
+}
+
+.header-logo-icon:hover {
+  fill: var(--brown);
+}
+
+.header-camera {
+  display: block;
+  background-color: var(--accent-bg);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 14px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.header-icon-camera {
+  fill: var(--brown-transp);
+  transition: var(--trans-time) var(--trans-func);
+}
+
+.header-icon-camera:active,
+.header-icon-camera:focus {
+  fill: var(--brown);
+}
+
+.header-menu-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.header-icon-burger {
+  stroke: var(--text-white);
+  background-color: transparent;
+  border: none;
+}
+
+.header-icon-burger:focus {
+  stroke: var(--brown-transp);
+}
+
+.header-navigation-list {
+  display: none;
+}
+
+.header-sign {
+  display: none;
+}
+
+@media only screen and (min-width: 375px) {
+  .header-block {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 30px;
+  }
+
+  .header-wrapper {
+    gap: 14px;
+  }
+
+  .header-block {
+    max-width: 504px;
+    height: 60px;
+  }
+
+  .header-camera {
+    display: none;
+  }
+
+  .header-sign {
+    background-color: var(--text-white);
+    display: block;
+    padding: 16px 58px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    min-width: 186px;
+    height: 60px;
+    color: var(--main-bg);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color var(--trans-time) var(--trans-func);
+  }
+
+  .header-sign:hover,
+  .header-sign:focus {
+    background-color: var(--accent-bg);
+    color: var(--brown);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    padding-bottom: 40px;
+  }
+
+  .header-wrapper {
+    margin: 0 auto;
+    gap: 20px;
+  }
+
+  .header-block {
+    max-width: 822px;
+    padding: 0 50px;
+  }
+
+  .header-logo {
+    margin-right: 97px;
+  }
+
+  .header-navigation-list {
+    list-style-type: none;
+    display: flex;
+    width: 498px;
+    justify-content: space-between;
+    gap: 28px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header-navigation-link {
+    position: relative;
+    display: block;
+    padding: 20px 0;
+    color: var(--text-white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    transition: transform;
+    transition: color var(--trans-time) var(--trans-func);
+  }
+
+  .header-navigation-link:hover {
+    color: var(--brown);
+  }
+
+  .header-navigation-link::after {
+    content: ' ';
+    left: 0;
+    background-color: var(--brown);
+    color: var(--brown);
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    width: 0px;
+    height: 2px;
+    border-radius: 2px;
+    transition: var(--trans-time);
+  }
+
+  .header-navigation-link:hover:after {
+    width: 100%;
+  }
+
+  .header-menu-toggle {
+    display: none;
+  }
+
+  .header-sign {
+    width: 238px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .header-block {
+    max-width: 982px;
+  }
+
+  .header-logo {
+    margin-right: 209px;
+  }
+
+  .header-navigation-list {
+    width: 550px;
+    gap: 40px;
+  }
+
+  .header-sign {
+    width: 238px;
+  }
+}
