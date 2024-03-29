@@ -1,7 +1,7 @@
 .courses {
   padding-top: 58px;
   padding-bottom: 40px;
-  background-color: var(--main-bg);
+  /* background-color: var(--main-bg); */
 }
 
 @media only screen and (min-width: 768px) {
@@ -111,7 +111,7 @@
 
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
+  background: linear-gradient(180deg, #06070774 0%, #1d1d1d2e 100%);
   padding: 28px;
   cursor: pointer;
   transition-duration: var(--trans-time);
@@ -261,13 +261,13 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .courses-item-descr{
-         width: 287px;
-   }
- }
+  .courses-item-descr {
+    width: 287px;
+  }
+}
 
- @media only screen and (min-width: 1280px) {
-    .courses-item-descr{
-         width: 330px;
-   }
- }
+@media only screen and (min-width: 1280px) {
+  .courses-item-descr {
+    width: 330px;
+  }
+}

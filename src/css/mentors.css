@@ -1,6 +1,6 @@
-.mentors {
+/* .mentors {
   background-color: var(--main-bg);
-}
+} */
 
 .mentors-section-container {
   display: flex;
@@ -9,7 +9,7 @@
   align-content: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: var(--main-bg);
+  /* background-color: var(--main-bg); */
 }
 
 @media only screen and (min-width: 768px) {

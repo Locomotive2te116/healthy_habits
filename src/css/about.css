@@ -1,7 +1,7 @@
 .about-section {
   padding-top: 80px;
   padding-bottom: 40px;
-  background-color: var(--main-bg);
+  /* background-color: var(--main-bg); */
 }
 
 @media only screen and (min-width: 768px) {
@@ -63,6 +63,7 @@
 
 .about-img {
   margin-bottom: 41px;
+  border-radius: 25px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -126,13 +127,16 @@
 
 @media only screen and (min-width: 1280px) {
   .text-one {
-    width: 268px;
+    width: 468px;
+    /* width: 268px; */
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .text-one {
-    width: 330px;
+    width: 480px;
+    font-size: 26px;
+    /* width: 330px; */
   }
 }
 @media only screen and (min-width: 1280px) {

@@ -6,7 +6,7 @@
 
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  background-color: var(--main-bg);
+  /* background-color: var(--main-bg); */
 }
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
   .advertisement {
@@ -50,11 +50,12 @@
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
 
-  color: var(--brown);
+  /* color: var(--brown); */
+  color: rgba(34, 255, 0, 0.807);
   font-weight: 400;
   font-size: 28px;
   line-height: 1.14;
@@ -74,7 +75,9 @@
 }
 
 .banner-line-accent {
-  color: var(--text-white);
+  /* color: var(--text-white); */
+  /* color: rgba(238, 255, 0, 0.782); */
+  color: gold;
 }
 
 @keyframes marqueeLine {

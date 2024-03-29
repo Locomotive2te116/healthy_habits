@@ -29,54 +29,67 @@ body {
   font-weight: 400;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  background-image: url(../img/hero/hero-bg_mob.png);
+  /* background-image: url(../img/hero/hero-bg_mob.png); */
+  background-image: url(../img/hero/yoga.webp);
+  /* position: fixed; */
   background-size: 100%;
   color: var(--text-white);
   background-color: var(--main-bg);
+
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
+  /* background-size: cover; */
+  background-attachment: fixed;
 }
 
 @media only screen and (min-resolution: 192dpi) {
   body {
-    /* background-color: transparent; */
+    background-color: transparent;
     background-image: url(../img/hero/hero-bg_mob@2x.png);
   }
 }
 
 @media only screen and (min-width: 768px) {
   body {
-    /* background-color: transparent; */
+    background-color: transparent;
     background-image: url(../img/hero/hero-bg_tab.png);
   }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   body {
-    /* background-color: transparent; */
-    background-image: url(../img/hero/hero-bg_tab@2x.png);
+    background-color: transparent;
+    /* background-image: url(../img/hero/hero-bg_tab@2x.png); */
+    background-image: url(../img/hero/yoga.png);
   }
 }
 
 @media only screen and (min-width: 1280px) {
   body {
-    background-image: url(../img/hero/hero-bg1280.png);
+    /* background-image: url(../img/hero/hero-bg1280.png); */
+    background-image: url(../img/hero/yoga.webp);
   }
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   body {
-    background-image: url(../img/hero/hero-bg1280@2x.png);
+    /* background-image: url(../img/hero/hero-bg1280@2x.png); */
+    background-image: url(../img/hero/yoga.webp);
   }
 }
 
 @media only screen and (min-width: 1440px) {
   body {
-    background-image: url(../img/hero/hero-bg1440.png);
+    /* background-image: url(../img/hero/hero-bg1440.png); */
+    background-image: url(../img/hero/yoga.webp);
   }
 }
 
 @media only screen and (min-width: 1440px) and (min-resolution: 192dpi) {
   body {
-    background-image: url(../img/hero/hero-bg1440@2x.png);
+    /* background-image: url(../img/hero/hero-bg1440@2x.png); */
+    background-image: url(../img/hero/yoga.webp);
   }
 }
 
