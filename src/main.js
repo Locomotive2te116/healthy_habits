@@ -39,7 +39,7 @@ import 'swiper/css/pagination';
 })();
 
 /* Slider Swiper */
-new Swiper('.reviews-swiper', {
+const swiper = new Swiper('.reviews-swiper', {
   simulateTouch: true,
   touchRatio: 1,
   grabCursor: true,
@@ -49,6 +49,9 @@ new Swiper('.reviews-swiper', {
     pageUpDown: true,
   },
   loop: true,
+  // autoplay: {
+  //   delay: 1000, // затримка перед прокручуванням (в мілісекундах)
+  // },
 
   breakpoints: {
     320: {
@@ -61,3 +64,4 @@ new Swiper('.reviews-swiper', {
   },
   modules: [Pagination],
 });
+// swiper.slideNext();
