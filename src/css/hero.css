@@ -70,7 +70,7 @@
   font-style: italic;
   font-weight: 400;
   letter-spacing: -0.02em;
-  color: var(--brown);
+  color: rgb(10, 136, 63);
 }
 
 @media only screen and (min-width: 768px) {
@@ -202,7 +202,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--brown);
+  background-color: rgba(10, 136, 62, 0.515);
 }
 
 @media only screen and (min-width: 768px) {
@@ -213,7 +213,7 @@
 }
 
 .hero-reviews-svg {
-  fill: var(--brown);
+  fill: rgba(10, 136, 62, 0.515);
   stroke: var(--accent-bg);
 }
 

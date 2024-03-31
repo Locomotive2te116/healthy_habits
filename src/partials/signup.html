@@ -4,6 +4,7 @@
       <h2 class="signup-title">
         Sign <span class="signup-title-accent">Up</span>
       </h2>
+
       <p class="signup-text">
         Please use the form below to contact us. Enter your name, email, and
         message and we'll get back to you shortly.
@@ -65,7 +66,30 @@
     </div>
 
     <div class="signup-additional">
-      <div class="signup-additional-animated">
+      <!-- <div class="signup-additional-static"> -->
+      <picture class="signup-pic">
+        <source
+          media="(min-width: 1440px)"
+          srcset="./img/sing-up/Natali2.webp"
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="./img/sing-up/Natali2.webp"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./img/sing-up/Natali2.webp"
+        />
+        <img
+          class="static-img"
+          src="./img/sing-up/Natali2.webp"
+          alt="Nataliya"
+          loading="lazy"
+        />
+      </picture>
+
+      <!-- </div> -->
+      <!-- <div class="signup-additional-animated">
         <img
           class="animated-img"
           srcset="
@@ -76,8 +100,8 @@
           alt="Lens"
           loading="lazy"
         />
-      </div>
-      <div class="signup-additional-static">
+      </div> -->
+      <!-- <div class="signup-additional-static">
         <img
           class="static-img"
           srcset="
@@ -88,7 +112,7 @@
           alt="Camera"
           loading="lazy"
         />
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

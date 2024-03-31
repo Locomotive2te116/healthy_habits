@@ -30,9 +30,13 @@
 }
 
 .header-logo {
-  display: block;
-  width: 123px;
-  height: 16px;
+  display: flex;
+  align-items: center;
+
+  /* width: 123px; */
+  /* height: 16px; */
+  height: 46px;
+  width: 46px;
 }
 
 .header-logo-icon {
@@ -42,6 +46,7 @@
 
 .header-logo-icon:hover {
   fill: var(--brown);
+  /* fill: red; */
 }
 
 .header-camera {
@@ -138,6 +143,7 @@
   .header-sign:hover,
   .header-sign:focus {
     background-color: var(--accent-bg);
+    /* color: red; */
     color: var(--brown);
   }
 }
@@ -185,14 +191,17 @@
   }
 
   .header-navigation-link:hover {
-    color: var(--brown);
+    color: rgb(10, 136, 63);
+    /* color: var(--brown); */
   }
 
   .header-navigation-link::after {
     content: ' ';
     left: 0;
-    background-color: var(--brown);
-    color: var(--brown);
+    background-color: rgb(10, 136, 63);
+    /* background-color: var(--brown); */
+    color: rgb(10, 136, 63);
+    /* color: var(--brown); */
     position: absolute;
     bottom: 5px;
     display: block;
