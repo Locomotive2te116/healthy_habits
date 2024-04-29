@@ -126,6 +126,11 @@
   width: 100%;
   height: 398px;
 
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #06070774 0%, #1d1d1d2e 100%);
